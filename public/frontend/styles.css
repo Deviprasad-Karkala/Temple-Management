@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+hr {
+    width: 96%;
+    position: relative;
+    left: 2%;
+    color: rgb(78, 78, 78);
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+.logo {
+    margin-inline: 30px;
+    display: flex;
+}
+
+.logo img {
+    width: 300px;
+    height: 90px;
+}
+
+.links {
+    margin-inline: 30px;
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    margin-inline: 20px;
+    color: #54524f;
+    transition: all .3s ease;
+    font-size: 1rem;
+}
+
+.lout {
+    margin-top: -8px;
+    border: 1px solid rgba(69, 69, 69, 0.525);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: -50px;
+    padding-right: 20px;
+}
+
+
+.links a:hover {
+
+    color: #e2a355;
+}
+
+.links .btn {
+    padding: 10px 20px;
+    background-color: #7f7770;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.links .btn:hover {
+    background-color: #e2a355;
+    color: white;
+}
+
+#highlight {
+    color: #e2a355;
+}
+
+.wearein {
+    width: 100%;
+    height: 60px;
+    background-color: #272727;
+    padding: 20px 30px;
+}
+
+.wearein a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+}
+
+.wearein a:hover {
+    color: #e2a355;
+    text-decoration: underline;
+}
+
+.wearein span {
+    color: #e2a355;
+}
+
+.mainBody {
+    padding: 50px 30px;
+    width: 100%;
+}
+
+.products {
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -60px;
+}
+
+.mainseva {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sevas {
+    padding: 10px;
+    background-color: #ecf0f3;
+    ;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffff,
+        3px 3px 5px #ceced1;
+    width: 28%;
+    height: 20%;
+    text-align: justify;
+    margin: 20px 30px 20px 30px;
+}
+
+.sevas a {
+    margin-left: 33%;
+}
+
+.sevas p {
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.sevas img {
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffff,
+        3px 3px 5px #ceced1;
+}
+
+.contain {
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+input[type=text]:focus,
+input[type=email],
+textarea:focus {
+    background-color: white;
+    outline: none;
+}
+
+
+
+
+
+hr {
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+
+.mainBody h1 {
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.mainBody h2 {
+    color: rgb(78, 78, 78);
+    text-align: left;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.mainBody h3 {
+    color: rgb(78, 78, 78);
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.mainBody h5 {
+    color: rgb(78, 78, 78);
+    text-align: left;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.mainBody span {
+    color: #ffd600;
+    font-family: 'Philosopher', sans-serif;
+    text-shadow: 1px 3px 1px #ff8f00;
+    font-size: 1.8em;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #7f7770;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: -3px -3px 7px #ffffff,
+        3px 3px 5px #ceced1;
+}
+
+.btn:hover {
+    background-color: #e2a355;
+    color: white;
+}
+.btnn {
+    padding: 10px 20px;
+    background-color: #7f7770;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnn:hover {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+
+
+.sevas .bton {
+    padding: 10px 20px;
+    background-color: #7f7770;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: -3px -3px 7px #ffffff,
+        3px 3px 5px #ceced1;
+}
+
+.sevas .bton:hover {
+    background-color: #e2a355;
+    color: white;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+p {
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.side img {
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(69, 69, 69, 0.525);
+}
+
+.information {
+    padding: 50px 30px;
+    background-color: #deb37e;
+}
+
+.information h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.information span {
+    color: #ffd600;
+    font-family: 'Philosopher', sans-serif;
+    text-shadow: 1px 3px 1px #ff8f00;
+    font-size: 1.8em;
+}
+
+.p-time {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 40px 0px;
+}
+.single {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+
+}
+
+.p-time img {
+    box-shadow: 0px 0px 20px rgba(69, 69, 69, 0.525);
+    border-radius: 20px;
+}
+
+
+
+.pic img {
+    box-shadow: 0px 0px 10px rgba(69, 69, 69, 0.525);
+    border-radius: 20px;
+    margin: 39px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #272727;
+}
+
+.footer {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    margin-inline: 30px;
+}
+
+.contacts a {
+    text-decoration: none;
+    margin-inline: 20px;
+    color: rgb(162, 162, 162);
+    transition: all .3s ease;
+}
+
+.contacts a:hover {
+    color: #e2a355;
+}
+
+.main #g {
+    color: #e2a355;
+}
+
+.main p {
+    color: rgb(162, 162, 162);
+    margin-left: 30px;
+}
+
+.main p #ft {
+    color: #e2a355;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.contactuss {
+    padding: 10px 120px 10px 120px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(69, 69, 69, 0.525);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s-btw{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
